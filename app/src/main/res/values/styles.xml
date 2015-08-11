@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="calculator_button">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:onClick">didTapButton</item>
+    </style>
+
+    <style name="dark_gray_button" parent="calculator_button">
+        <item name="android:background">@color/dark_gray_color</item>
+    </style>
+
+    <style name="light_gray_button" parent="calculator_button">
+        <item name="android:background">@color/light_gray_color</item>
+    </style>
+
+    <style name="orange_button" parent="calculator_button">
+        <item name="android:background">@color/orange_color</item>
+        <item name="android:textColor">@color/white_color</item>
+    </style>
+
+
+</resources>

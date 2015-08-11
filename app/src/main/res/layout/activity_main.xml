@@ -1,0 +1,149 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:hint="@string/text_default"
+        android:textSize="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical|end"
+        android:padding="10dp"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/dark_gray_button"
+            android:tag="clear"
+            android:text="@string/btn_allclear" />
+
+        <Button
+            style="@style/dark_gray_button"
+            android:tag="invert"
+            android:text="@string/btn_invert" />
+
+        <Button
+            style="@style/dark_gray_button"
+            android:tag="percentage"
+            android:text="@string/btn_percentage" />
+
+        <Button
+            style="@style/orange_button"
+            android:tag="divide"
+            android:text="@string/btn_divide" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/light_gray_button"
+            android:tag="7"
+            android:text="@string/btn_7" />
+
+        <Button
+            style="@style/light_gray_button"
+            android:tag="8"
+            android:text="@string/btn_8" />
+
+        <Button
+            style="@style/light_gray_button"
+            android:tag="9"
+            android:text="@string/btn_9" />
+
+        <Button
+            style="@style/orange_button"
+            android:tag="multiply"
+            android:text="@string/btn_multiply" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/light_gray_button"
+            android:tag="4"
+            android:text="@string/btn_4" />
+
+        <Button
+            style="@style/light_gray_button"
+            android:tag="5"
+            android:text="@string/btn_5" />
+
+        <Button
+            style="@style/light_gray_button"
+            android:tag="6"
+            android:text="@string/btn_6" />
+
+        <Button
+            style="@style/orange_button"
+            android:tag="minus"
+            android:text="@string/btn_minus" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/light_gray_button"
+            android:tag="1"
+            android:text="@string/btn_1" />
+
+        <Button
+            style="@style/light_gray_button"
+            android:tag="2"
+            android:text="@string/btn_2" />
+
+        <Button
+            style="@style/light_gray_button"
+            android:tag="3"
+            android:text="@string/btn_3" />
+
+        <Button
+            style="@style/orange_button"
+            android:tag="plus"
+            android:text="@string/btn_plus" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/light_gray_button"
+            android:layout_weight = "3"
+            android:tag="0"
+            android:text="@string/btn_0" />
+
+        <Button
+            style="@style/orange_button"
+            android:tag="equals"
+            android:text="@string/btn_equals" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
